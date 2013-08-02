@@ -10,6 +10,6 @@ $todoPath = '/rfid/ids';
 
 
 printf("Reading data from %s\n", $todoPath);
-response = $fb->get($todoPath);
+$response = $fb->get($todoPath);
 printf("Result: %s\n", $response);
 sleep(2);
